@@ -1,0 +1,14 @@
+Migrate the Departments project from Console app to Web app. The web app does the same that console app do but it renders the html pages that displays the departments/employees list and allows to perform CRUD operations with them. Watch mockups for details.
+
+Requirements:
+
+1. Create web project structure with maven (https://maven.apache.org/plugins-archives/maven-archetype-plugin-1.0-alpha-7/examples/webapp.html)
+2. Use servlets as a containers for business logic for application (java code for working with departments/employees)
+3. Use jsp files for displaying the html user interface
+4. Use Apache Tomcat as a servlet container and server to run the application
+
+What to read:
+
+1. https://www.mkyong.com/servlet/a-simple-servlet-example-write-deploy-run/
+2. http://devcolibri.com/4284 (servlet app + IDEA + tomcat)
+3. http://www.codejava.net/java-ee/servlet/java-servlet-quick-start-tomcat-xml-config  (pure tomcat + servlet app)
