@@ -1,0 +1,14 @@
+Integrate Apache Maven into the Departments project. 
+
+Requirements:
+
+1. Create pom.xml with dependencies for mysql-jdbc and log4j
+2. Since all application dependencies are managed through the Maven there are no external .jar files must be. All dependencies have to be in the pom file only.
+3. Log all exceptions and warnings through log4j. Logger should write into .log file and to console. 
+4. Build project with maven as a runnable jar file
+
+To Read:
+
+1. https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+2. https://www.mkyong.com/logging/log4j-hello-world-example/
+3. https://www.mkyong.com/maven/how-to-create-a-jar-file-with-maven/
